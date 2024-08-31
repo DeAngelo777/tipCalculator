@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #777;}
+
+main {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8EDE3;
+    text-align: center;
+    gap: 30px;
+    height: auto;
+    width: 450px;
+    border-radius: 15px;
+    border: 2px solid #F8EDE3;
+
+
+}
+
+.container input{
+    height: 30px;
+    color: #444;
+    background-color: #fff;
+    border: none;
+}
+
+.container select{
+    height: 30px;
+    color: #444;
+    background-color: #fff;
+    border: none;
+
+}
+
+.container h1{
+    padding: 1rem;
+}
+
+.container .btn{
+    width: 100%;
+    height: 35px;
+    background-color: #C5705D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.container .btn:hover{
+    padding: 0.5rem 1.5rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.sumDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+    padding-bottom: 1.5rem;
+}
+
+.container p {
+    color: #444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-weight: 600;
+}
